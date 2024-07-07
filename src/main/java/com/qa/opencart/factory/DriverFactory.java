@@ -86,7 +86,7 @@ public class DriverFactory {
 		System.out.println("running test suite on env--->" + envName);
 
 		if (envName == null) {
-			System.out.println("env name is not given, hence running it on QA environment....");
+			System.out.println("env name is not given, hence running it on default config environment....");
 			try {
 				ip = new FileInputStream(AppConstants.CONFIG_FILE_PATH);
 			} catch (FileNotFoundException e) {
